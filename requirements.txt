@@ -1,0 +1,7 @@
+torchvision==0.2.1
+pandas==0.24.2
+torch==0.4.1
+h5py==2.9.0
+numpy==1.16.1
+Pillow==6.1.0
+dataset==1.1.2
