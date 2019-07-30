@@ -60,10 +60,15 @@ The result json file can be found in the directory `results/`.
 
 ### Citation
 
-If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
+Please cite these papers in your publications if it helps your research
 
 ```
-Updating
+@inproceedings{aioz_mevf_miccai19,
+  author={Binh D. Nguyen, Thanh-Toan Do, Binh X. Nguyen, Tuong Do, Erman Tjiputra, Quang D. Tran},
+  title={Overcoming Data Limitation in Medical Visual Question Answering},
+  booktitle = {MICCAI},
+  year={2019}
+}
 ```
 
 ### License
