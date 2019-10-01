@@ -17,12 +17,6 @@ pip install -r requirements.txt
 
 All data should be downloaded via [link](https://drive.google.com/file/d/1ZTZdrwt1Z2fHehQujYKpj1o9Hf0Jylr7/view?usp=sharing). The downloaded file should be extracted to `data_RAD/` directory.
 
-%The easiest way to download the data is to run the provided script `tools/download_data_RAD.sh` from the repository root.%
-```
-sh tools/download_data_RAD.sh
-```
-
-
 ### Training
 Train MEVF model with Stacked Attention Network
 ```
