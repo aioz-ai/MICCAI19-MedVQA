@@ -1,6 +1,6 @@
 # Mixture of Enhanced Visual Features (MEVF)
 
-This repository is the implementation of `MEVF` for the visual question answering task in medical domain. Our model achieved **43.9** for open-ended and **75.1** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). For the detail, please refer to [link](http://arxiv.xxx).
+This repository is the implementation of `MEVF` for the visual question answering task in medical domain. Our model achieved **43.9** for open-ended and **75.1** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). For the detail, please refer to [link](https://arxiv.org/abs/1909.11867).
 
 This repository is based on and inspired by @Jin-Hwa Kim's [work](https://github.com/jnhwkim/ban-vqa). We sincerely thank for their sharing of the codes.
 
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 All data should be downloaded via [link](https://drive.google.com/file/d/1ZTZdrwt1Z2fHehQujYKpj1o9Hf0Jylr7/view?usp=sharing). The downloaded file should be extracted to `data_RAD/` directory.
 
-The easiest way to download the data is to run the provided script `tools/download_data_RAD.sh` from the repository root.
+%The easiest way to download the data is to run the provided script `tools/download_data_RAD.sh` from the repository root.%
 ```
 sh tools/download_data_RAD.sh
 ```
