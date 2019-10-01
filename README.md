@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ### Preprocessing
 
-All data should be downloaded via [link](https://drive.google.com/file/d/1ZTZdrwt1Z2fHehQujYKpj1o9Hf0Jylr7/view?usp=sharing). The downloaded file should be extracted to `data_RAD/` directory.
+All data should be downloaded via [link](https://vision.aioz.io/f/777a3737ee904924bf0d/?dl=1). The downloaded file should be extracted to `data_RAD/` directory.
 
 ### Training
 Train MEVF model with Stacked Attention Network
@@ -42,11 +42,11 @@ The **CDAE** model `data_RAD/pretrained_ae.pth` is trained by code provided in `
 
 We also provide the pretrained models reported as the best single model in the paper.
 
-For `SAN_MEVF` pretrained model. Please download the [link](https://drive.google.com/file/d/1KyegpjwsPz20YTjhPCr78NXjJq74MFFY/view?usp=sharing) and move to `saved_models/SAN_MEVF/`. The trained `SAN_MEVF` model can be tested in VQA-RAD test set via:
+For `SAN_MEVF` pretrained model. Please download the [link](https://vision.aioz.io/f/fdc6572bc26f4dd684f4/?dl=1) and move to `saved_models/SAN_MEVF/`. The trained `SAN_MEVF` model can be tested in VQA-RAD test set via:
 ```
 $ python3 test.py --model SAN --use_RAD --RAD_dir data_RAD --maml --autoencoder --input saved_models/SAN_MEVF --epoch 19 --output results/SAN_MEVF
 ```
-For `BAN_MEVF` pretrained model. Please download the [link](https://drive.google.com/file/d/1aJdbwSa5gZ1k5PeA44_JBnla5N5y0Ycj/view?usp=sharing) and move to `saved_models/BAN_MEVF/`. The trained `BAN_MEVF` model can be tested in VQA-RAD test set via:
+For `BAN_MEVF` pretrained model. Please download the [link](https://vision.aioz.io/f/882e8a6f32704013943d/?dl=1) and move to `saved_models/BAN_MEVF/`. The trained `BAN_MEVF` model can be tested in VQA-RAD test set via:
 ```
 $ python3 test.py --model BAN --use_RAD --RAD_dir data_RAD --maml --autoencoder --input saved_models/BAN_MEVF --epoch 19 --output results/BAN_MEVF
 ```
