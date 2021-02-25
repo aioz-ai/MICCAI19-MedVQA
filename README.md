@@ -71,3 +71,4 @@ MIT License
 
 ### More information
 AIOZ AI Homepage: https://ai.aioz.io
+AIOZ Network: https://aioz.network
