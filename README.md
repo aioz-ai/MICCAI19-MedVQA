@@ -1,3 +1,5 @@
+**!!! Check out our new [paper](https://arxiv.org/abs/2105.08913) and [model](https://github.com/aioz-ai/MICCAI21_MMQ) improved for Meta-learning Medical Visual Question Answering.**
+
 # Mixture of Enhanced Visual Features (MEVF)
 
 This repository is the implementation of `MEVF` for the visual question answering task in medical domain. Our model achieved **43.9** for open-ended and **75.1** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). For the detail, please refer to [link](https://arxiv.org/abs/1909.11867).
