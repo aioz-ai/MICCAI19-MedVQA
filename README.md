@@ -56,7 +56,7 @@ The result json file can be found in the directory `results/`.
 
 ### Citation
 
-Please cite these papers in your publications if it helps your research
+Please cite these papers in your publications if it helps your research:
 
 ```
 @inproceedings{aioz_mevf_miccai19,
@@ -64,6 +64,17 @@ Please cite these papers in your publications if it helps your research
   title={Overcoming Data Limitation in Medical Visual Question Answering},
   booktitle = {MICCAI},
   year={2019}
+}
+```
+
+If you find that our meta-learning work for MedVQA is useful, you could cite the following paper:
+
+```
+@inproceedings{aioz_mmq_miccai21,
+  author={Tuong Do and Binh X. Nguyen and Erman Tjiputra and Minh Tran and Quang D. Tran and Anh Nguyen},
+  title={Multiple Meta-model Quantifying for Medical Visual Question Answering},
+  booktitle = {MICCAI},
+  year={2021}
 }
 ```
 
